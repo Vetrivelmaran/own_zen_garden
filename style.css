@@ -1,0 +1,48 @@
+html{
+    background: #daede2;
+
+}
+body{
+    background:#77c4d3;
+    margin-top: 5em;
+    margin-left: 5em;
+    margin-right: 5em;
+    padding: 20px 0 0 20px;
+    /* width: 100%; */
+    position: relative;
+
+}
+ h1{
+    background: red;
+    color: white;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-right: 50%;
+    display: inline-block;
+    letter-spacing: 2px;
+    padding: 20px 50px;
+    font-family: "tablet-gothic", verdana, arial, sans-serif;
+    display: inline-block;
+
+}
+h2 {
+    width: 5em;
+    color: #ffffff;
+    font-family: "tablet-gothic", verdana, arial, sans-serif;
+    font-size: 11em;
+    font-weight: 900;
+    letter-spacing:1px;
+    line-height: 1em;
+    margin: 0;
+    
+}
+.extra1{
+
+    position: fixed;
+    width: 30%;
+    background: #030303;
+    top: 0;
+    right: 0;
+}
+
+
