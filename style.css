@@ -1,5 +1,6 @@
 html{
     background: #daede2;
+    box-sizing: border-box;
     
 }
 body{
@@ -11,6 +12,7 @@ body{
     /* width: 100%; */
     position: relative;
     font-family: "tablet-gothic", verdana, arial, sans-serif;
+
     
 }
  h1{
@@ -37,14 +39,6 @@ h2 {
     line-height: 1em;
     margin: 50px;
     
-}
-.extra1{
-
-    position: fixed;
-    width: 30%;
-    background: #030303;
-    top: 0;
-    right: 0;
 }
 .intro .summary p{
     text-transform: uppercase;
@@ -88,36 +82,110 @@ h2 {
     padding: 0.5em 0;
     margin-left: -104px;
 }
+
+.main {
+    width: 100%;
+}
 .participation{
         background:rgba(234,46,73,0.9);
-        width: 49%;
-        float:right;
-       
-    }
-    .explanation{
-        float: left;
-       
-        width: 49%;
-        padding-right: 26px;
-        padding-bottom: 9%;
+        width: 50%;
+        float: right;
+        padding: 5%;
+        position: relative;
+        z-index: 1;
+        margin-top: 8em;
 
     }
-    .participation p, .explanation p{
+.explanation{
+    background-color:#77c4d3;
+    width: 32%;
+    float: left;
+    margin-top: 8em;
+}
+    .participation p{
+        font-size: 1em;
+        color: white;
+        font-weight: 400;
+        line-height: 1.5em;
+        padding: 0.5em 0;
+    }
+    .explanation p{
+        color: white;
         font-size: 1em;
         font-weight: 400;
         line-height: 1.5em;
-        padding: 0.5em 9em;
-        width: 63%;
-        text-align: left;
-        color: white;
+        padding: 0.5em 0;
     }
     .participation h3,.explanation h3{
         font-size: 2em;
-        text-align: center;
+        /* text-align: center; */
         color: white;
     }
     .benefits{
-        width: 30%;
-        margin-top: 12%;
-        background-color: white;
+        clear: both;
+    background-color: white;
+    /* padding: 5%; */
+    margin-top: 149px;
+    width: 30%;
+    
+    float: left;
     }
+    .benefits h3{
+        padding-left: 115px;
+        font-size: 2em;
+    font-weight: 300;
+
+    }
+    .benefits p{
+        font-size: 1em;
+        line-height: 1.5em;
+        font-weight: 400;
+        padding: 0.5em,0;
+        width: 37%;
+    padding-left: 119px;
+    
+    }
+    .requirements {
+        position: relative;
+        z-index: 1;
+        margin-right: 7%;
+        width: 63%;
+        float: right;
+        background-color:rgba(255,255,255,0.9);
+    }
+    .requirements p{
+        font-weight: 400;
+        width: 61%;
+        margin-left: 150px;
+    
+    }
+
+    .sidebar {
+        clear: both;
+    }
+.extra1{
+    background:rgba(51,55,69,0.9);
+    width: 30%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+    z-index: 0;
+}
+.design-selection{
+        margin-top: 2em;
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: 1;
+        background: rgba(246,247,146,0.9);
+        padding:68px;
+        margin-top: 72px;
+    }
+.design-selection h3{
+    font-size: 2.25em;
+    font-weight: 200;
+    letter-spacing: 1px;
+    line-height: 1em;
+    padding: 0.5em 0 0.25em 0;
+}
